@@ -1,0 +1,8 @@
+.direnv/
+.envrc
+.idea/
+**/.decrypted*
+.vscode/
+.swo
+.swp
+charts/*/charts
