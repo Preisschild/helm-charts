@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  deemix:
+  - apiVersion: v2
+    appVersion: '2022.5.28-r206.a752a63e0e '
+    created: "2022-07-02T23:35:47.190908035+02:00"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.4.2
+    description: Deemix is a barebone deezer downloader
+    digest: 82752a06b6e6fba007cedd8d1a089faa503d57c7204dc76c2d014b82c67b0abb
+    home: https://github.com/Preisschild/helm-charts/tree/main/charts/deemix
+    icon: https://gitlab.com/RemixDev/deemix-webui/-/raw/e63a8c709c477a8e68e61037f4b82359d23f4a32/src/assets/deemix-icon.svg
+    keywords:
+    - deemix
+    - music
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: florian@florianstroeger.com
+      name: preisschild
+    name: deemix
+    sources:
+    - https://gitlab.com/Bockiii/deemix-docker
+    - https://gitlab.com/RemixDev/deemix-gui
+    urls:
+    - https://preisschild.github.io/helm-charts/deemix-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-07-02T23:35:47.188568912+02:00"
